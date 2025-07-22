@@ -1,0 +1,168 @@
+*{
+    padding: 0%;
+     margin: 0%;
+    box-sizing: border-box;
+}
+
+
+:root{
+
+    /* ## Colors */
+
+/* ### Primary colors */
+
+--Blue-950: hsl(213, 96%, 18%);
+
+--Purple-600: hsl(243, 100%, 62%);
+
+--Blue-300: hsl(228, 100%, 84%);
+
+--Blue-200: hsl(206, 94%, 87%);
+
+--Red-500: hsl(354, 84%, 57%);
+
+/* ### Neutral colors */
+
+--Grey-500: hsl(231, 11%, 63%);
+
+--Purple-200: hsl(229, 24%, 87%);
+
+--Blue-100: hsl(218, 100%, 97%);
+
+--Blue-50: hsl(231, 100%, 99%);
+
+--White: hsl(0, 100%, 100%);
+
+/* ## Typography */
+
+/* ### Body Copy */
+
+--Font-size:16px;
+
+--weight1:400;
+--weight2:500;
+--weight3:700;
+
+
+}
+
+body{
+    background-color: var(--Blue-100);
+    padding: 50px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    padding: 50px 330px 50px 330px;
+    background-color: white;
+    gap: 90px;
+}
+
+
+aside{
+    
+    background-image:url(resources/images/bg-sidebar-desktop.svg) ;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 80%;
+   display: flex;
+   flex-direction: column;
+   
+   padding:30px 50px 0px 50px ;
+   gap: 20px;
+    
+}
+
+.aside-div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+aside h6{
+    color: white;
+  border: 2px solid var(--White);
+  width:30px ;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+
+aside p{
+    color: var(--Grey-500);
+    font-size: 10px;
+}
+
+aside h4{
+    color: var(--White);
+    font-weight: var(--weight3);
+    font-size: 11px;
+}
+
+.sect-div1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 0px 0px;
+    gap: 30px;
+    line-height: 1;
+
+
+    
+
+}
+
+.sect-div1 h2{
+    color: var(--Blue-950);
+    font-weight: var(--weight3);
+  
+}
+
+.sect-div1  {
+    color: grey;
+    font-size: 14px;
+    width: 100%;  
+}
+
+.sect-subdiv1{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.sect-subdiv1 input{
+    padding: 10px 15px;
+   
+}
+
+label{
+    color: var(--Blue-950);
+    font-weight: var(--weight3);
+}
+
+::placeholder{
+    color: grey;
+    font-weight: var(--weight3);
+}
+
+button{
+    color: var(--White);
+    background-color: var(--Blue-950);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.button-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+}
+
+
+
+
