@@ -1,0 +1,264 @@
+*{
+    padding: 0%;
+     margin: 0%;
+    box-sizing: border-box;
+}
+
+
+:root{
+
+    /* ## Colors */
+
+/* ### Primary colors */
+
+--Blue-950: hsl(213, 96%, 18%);
+
+--Purple-600: hsl(243, 100%, 62%);
+
+--Blue-300: hsl(228, 100%, 84%);
+
+--Blue-200: hsl(206, 94%, 87%);
+
+--Red-500: hsl(354, 84%, 57%);
+
+/* ### Neutral colors */
+
+--Grey-500: hsl(231, 11%, 63%);
+
+--Purple-200: hsl(229, 24%, 87%);
+
+--Blue-100: hsl(218, 100%, 97%);
+
+--Blue-50: hsl(231, 100%, 99%);
+
+--White: hsl(0, 100%, 100%);
+
+/* ## Typography */
+
+/* ### Body Copy */
+
+--Font-size:16px;
+
+--weight1:400;
+--weight2:500;
+--weight3:700;
+
+
+}
+
+body{
+    background-color: var(--Blue-300);
+    padding: 80px 300px 30px 300px;
+    overflow-x: hidden;
+}
+
+main{
+    background-color: var(--White);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 0px 20px 20px;
+}
+
+aside{ 
+   background-image: url(../resources/images/bg-sidebar-desktop.svg);
+   background-repeat: no-repeat;
+    height: 90vh;
+    width: 80%;
+    padding:30px 0px 0px 30px ;
+    display: flex;
+    flex-direction: column;
+   gap: 15px;
+}
+
+aside h6{
+    color: white;
+  border: 2px solid var(--White);
+  width:30px ;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.aside-div{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    gap: 10px
+}
+
+aside p{
+    color:var(--Grey-500);
+    font-size: 10px;
+    font-weight: var(--weight1);
+}
+
+aside h4{
+    color: var(--White);
+    font-weight: var(--weight3);
+    font-size: 11px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 10vh 0vh 0vh;
+    gap: 30px;
+}
+
+.sect-div1{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.sect-div1 h2{
+    color: var(--Blue-950);
+    font-size: 20px;
+    font-weight: var(--weight3);
+} 
+
+.sect-div1 p{
+    color: var(--Grey-500);
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.sect-div2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.sub-div1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+    border-radius: 10px;
+    gap: 30px;
+    padding: 9px 15px 9px 3px ;
+}
+
+
+.sub-div1 div{
+  
+   margin-left: -20px;
+   
+}
+
+.sub-div1 p{
+    font-size: 11px;
+    color: var(--Grey-500);
+}
+
+.sub-div1 h4{
+    font-size:14px ;
+    color: var(--Blue-950);
+}
+.sub-div1 h5{
+    font-size:9px ;
+    color: blue;
+    padding-left: 10px;
+    
+   
+}
+
+
+.sub-div2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    border: 1px solid blue;
+    border-radius: 10px;
+    gap: 58px;
+    padding: 9px 15px 9px 25px ;
+}
+
+.sub-div2 div{
+  
+   margin-left: -56px;
+   
+}
+
+
+.sub-div2 p{
+    font-size: 11px;
+    color: var(--Grey-500);
+}
+
+.sub-div2 h4{
+    font-size:14px ;
+    color: var(--Blue-950);
+}
+.sub-div2 h5{
+    font-size:9px ;
+    color: blue;
+   padding: 0px 15px 0px 0px;
+   
+}
+
+.sub-div3{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    gap: 30px;
+    padding: 8px 0px 8px 0px ;
+}
+
+.sub-div3 div{
+  
+   margin-left: -18px;
+   
+}
+
+
+.sub-div3 p{
+    font-size: 11px;
+    color: var(--Grey-500);
+}
+
+.sub-div3 h4{
+    font-size:14px ;
+    color: var(--Blue-950);
+}
+.sub-div3 h5{
+    font-size:9px ;
+    color: blue;
+   /* padding: 0px 15px 0px 0px; */
+   
+}
+
+.sect-div3{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   padding-top: 80px;
+}
+
+
+button{
+    color: var(--White);
+    background-color: var(--Blue-950);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.go{
+    color: var(--Grey-500);
+    background-color: var(--White);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
